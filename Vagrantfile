@@ -26,7 +26,7 @@ Vagrant.configure(2) do |config|
       sudo yum -q -y install $(cat /shared/yumrequirements.txt)
       echo "Installing CloudBolt #{ENV['CB_VER']}"
       #sudo runuser -c "~vagrant/cloudbolt_installer_#{ENV['CB_VER']}/install_cloudbolt.sh force"
-      sudo env "PATH=/usr/local/bin:$PATH" cloudbolt_installer_#{ENV['CB_VER']}/install_cloudbolt.sh force
+      sudo env "PATH=/usr/local/bin:/usr/local/sbin:$PATH" cloudbolt_installer_#{ENV['CB_VER']}/install_cloudbolt.sh force
       SHELL
     end
   end
