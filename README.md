@@ -20,3 +20,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/CloudBoltSoftware/vagrant/
 
 The script will prompt for a valid CB version and the ammount of memory you want on your Vagrang box
 
+#### Automated Install
+
+You can pass the CB version and memory size to the shell script
