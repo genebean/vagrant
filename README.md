@@ -11,4 +11,4 @@ Try out CloudBolt in Vagrant!
 * Clone the repository
 * 'vagrant up' in repository direcotry
 * Access CloudBolt via https://localhost:8443
-* Request a license from https://cloudbolt.io/licesen-request
+* Request a license from https://cloudbolt.io/license-request
