@@ -22,7 +22,7 @@ Try out CloudBolt in Vagrant!
 
   'tar xvzf cloudbolt-upgrader-latest.tgz'
 
-  'cd to the coudbolt upgrade dir'
+  'cd to the cloudbolt upgrade dir'
 
   './upgrade_cloudbolt.sh'
 * Access CloudBolt via https://localhost:8443
